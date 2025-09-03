@@ -84,7 +84,6 @@ story_data = {
         'text': "Leo decides to create a diversion...",
         'logic': 'check_inventory'
     },
-    # --- ENDINGS ---
     'ending_coward': {
         'title': 'ENDING 1: A COWARD\'S END',
         'text':
@@ -161,6 +160,5 @@ def restart():
     return get_game_state()
 
 
-# --- 6. Run the Server ---
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=81)
